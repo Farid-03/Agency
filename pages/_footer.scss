@@ -1,0 +1,28 @@
+.footer{
+    padding-top: 43px;
+    padding-bottom: 43px;
+    text-align: center;
+    background-color: #FDF0E9;
+    .footer_content{
+        display: flex;
+        justify-content: space-around;
+        cursor: pointer;
+        .footer_right{
+            .sp2{
+                margin-left: 60px;
+            }
+        }
+    }
+}
+@media (max-width: 320px) {
+    .footer{
+        .footer_content{
+            flex-direction: column;
+            .footer_right{
+                .sp2{
+                    margin-left: none;
+                }
+            }
+        }
+    }
+}

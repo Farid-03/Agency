@@ -1,0 +1,176 @@
+.catalogs{
+    padding-top: 68px;
+    background-color: #FDF0E9;
+    text-align: center;
+    .catalogs_content ul{
+        display: flex;
+        justify-content: center;
+       li{
+            margin-left: 60px;
+            font-family: "Epilogue", sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 32px;
+       }
+    }
+    .catalog_blocks{
+        .catalog_block{
+            padding-top: 68px;
+            padding-bottom: 60px;
+            display: flex;
+            justify-content: space-evenly;
+            .catalog_block-1{
+                width: 370px;
+                height: 416px;
+                background: url("img/Sofa.png");
+                .radius{
+                    position: relative;
+                    top: 265px;
+                    left: -98px;
+                    width: 84px;
+                    height: 36px;
+                    background-color: white;
+                    border-radius: 15px;
+                    display: inline-block;
+                    p{
+                        font-family: "Epilogue", sans-serif;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 32px;
+                    }
+                }
+                h3{
+                    position: relative;
+                    top: 265px;
+                    left: -98px;
+                    margin-top: 20px;
+                    font-family: "Epilogue";
+                    font-size: 40px;
+                    font-weight: 800;
+                    line-height: 48px;
+                    color: white;
+                }
+            }
+            .block-2{
+                background: url("img/keyboard.png");
+                h3{
+                    left: -70px;
+                }
+            }
+            .block-3{
+                background: url("img/work media.png");
+                h3{
+                    left: -50px;
+                }
+            }
+            .block-4{
+                background: url("img/dddone.png");
+                h3{
+                    left: -70px;
+                }
+            }
+             .block-5{
+                background: url("img/abstract.png");
+                 h3{
+                    left: -70px;
+                }
+            }
+             .block-6{
+                background: url("img/handp.png");
+                 h3{
+                    left: -70px;
+                }
+            }
+             .block-7{
+                background: url("img/architect.png");
+                 h3{
+                    left: -70px;
+                }
+            }
+             .block-8{
+                background: url("img/calc.png");
+                 h3{
+                    left: -97px;
+                }
+            }
+             .block-9{
+                background: url("img/sport.png");
+                 h3{
+                    left: -92px;
+                }
+            }
+        }
+    }
+    button{
+        border: 2px solid white;
+        margin-bottom: 112px;
+        margin-top: 80px;
+        border-radius: 15px;
+        cursor: pointer;
+        p{
+            padding: 18px 43px;
+        }
+    }
+}
+
+
+@media (max-width: 320px) {
+    .catalogs{
+
+        .catalogs_content ul{
+            flex-direction: column;
+            li{
+                margin-left: 10px;
+                font-size: 10px;
+                line-height: 16px;
+            }
+            .li--1{
+                p{
+                    padding-top: 15px;
+                    font-size: 16px;
+                    padding-left: 3px;
+                }
+                border: 1px solid black;
+                display: flex;
+                justify-content: flex-start;
+                width: 290px;
+                height: 48px;
+                border-radius: 6px;
+                margin-right: 100px;
+            }
+            .li--2{
+                display: none;
+            }
+            .li--3{
+                display: none;
+            }
+            .li--4{
+                display: none;
+            }
+            .li--5{
+                display: none;
+            }
+        }
+        .catalog_blocks{
+            .catalog_block{
+                flex-direction: column;
+                .catalog_block-1{
+                    width: 310px;
+                    height: 416px;
+                }
+            }
+        }
+    }
+}
+
+/*  .catalogs_content ul{
+        display: flex;
+        justify-content: center;
+       li{
+            margin-left: 60px;
+            font-family: "Epilogue", sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 32px;
+       }
+    } */

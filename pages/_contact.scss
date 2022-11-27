@@ -1,0 +1,71 @@
+.contact{
+    padding-top: 112px;
+    padding-bottom: 112px;
+    text-align: center;
+    background-color: #EF6D58;
+    .contact_content{
+        display: flex;
+        justify-content: space-evenly;
+        .contact_left{
+            h2{
+                font-family: "Epilogue", sans-serif;
+                font-size: 53px;
+                font-weight: 800;
+                line-height: 60px;
+                letter-spacing: -1px;
+                height: 170px;
+                width: 370px;
+                color: white;
+            }
+            p{
+                font-family: "Epilogue", sans-serif;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 32px;
+                color: white;
+                margin-top: 100px;
+            }
+            button{
+                margin-top: 34px;
+                cursor: pointer;
+                display: flex;
+                justify-content: flex-start;
+                border: 1px solid white;
+                border-radius: 12px;
+                span{
+                    padding: 16px 24px;
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    .contact{
+        padding-top: 60px;
+        padding-bottom: 60px;
+        .contact_content{
+            flex-direction: column;
+            .contact_left{
+                h2{
+                    width: 274px;
+                    height: 144px;
+                    font-size: 40px;
+                    font-weight: 800;
+                    line-height: 48px;
+                }
+                p{
+                    font-size: 16px;
+                    line-height: 32px;
+                }
+            }
+            .contact_right{
+                img{
+                    height: 264px;
+                    width: 273px;
+                }
+            }
+        }
+    }
+}
